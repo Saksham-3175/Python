@@ -3,46 +3,46 @@ string = "String methods in Python"
 print(string)
 
 #The len() methods returns the length of the string.
-# print("The length of the string is: ", len(string))
+print("The length of the string is: ", len(string))
 
 #The lower() method return the string to lower case.
-# print("Original String:", string)
-# print("The lower case of the string is: ", string.lower())
+print("Original String:", string)
+print("The lower case of the string is: ", string.lower())
 
 #The upper() method returns the string to upper case.
-# print("Original String:", string)
-# print("The upper case of the string is: ", string.upper())
+print("Original String:", string)
+print("The upper case of the string is: ", string.upper())
 
 #The replace() methods replaces a string with another string.
-# print("Original String:", string)
-# print("The replaced string is: ", string.replace("Python", "Django"))
+print("Original String:", string)
+print("The replaced string is: ", string.replace("Python", "Django"))
 
 #The split() method splits the string into a list.
-# print("Original String:", string)
-# print("The split string is: ", string.split())
+print("Original String:", string)
+print("The split string is: ", string.split())
 
 #The strip() method removes any whitespace from the beginning or the end.
-# string2 = "  Stripped string is here "
-# print("Original String:", string2)
-# print("The stripped string is: ", string2.strip())
+string2 = "  Stripped string is here "
+print("Original String:", string2)
+print("The stripped string is: ", string2.strip())
 
-#The capitalize() method capitalized the first letter of the string. If the first letter is a number, it will not capitalize it. If the first letter is a special character, it will capitalize the next letter. It will change the rest of the string to lower case.
+#The capitalize() method capitalizes the first letter of the string. If the first letter is a number, it will not capitalize it. If the first letter is a special character, it will capitalize the next letter. It will change the rest of the string to lower case.
 
-# cap_string = "new strIng"
-# print("Original String:", cap_string);
-# print("The capitalized string is: ", cap_string.capitalize())
+cap_string = "new strIng"
+print("Original String:", cap_string);
+print("The capitalized string is: ", cap_string.capitalize())
 
-# cap_string2 = "_St StRiNg"
-# print("Origianl string: ", cap_string2)
-# print("The capitalized string is: ", cap_string2.capitalize())
+cap_string2 = "_St StRiNg"
+print("Origianl string: ", cap_string2)
+print("The capitalized string is: ", cap_string2.capitalize())
 
 #The center() method centers the string with the specified width. The default fill character is a space.
 center_string = "Centered String"
-# print("Original String: ", center_string)
-# print("The length of the string is: ", len(center_string))
-# print(center_string.center(50))
-# print(center_string.center(50, "*"))
-# print("The length of string now is: ", len(center_string.center(40)))
+print("Original String: ", center_string)
+print("The length of the string is: ", len(center_string))
+print(center_string.center(50))
+print(center_string.center(50, "*"))
+print("The length of string now is: ", len(center_string.center(40)))
 
 #The count() method returns the number of times a specified value appears in the string.
 print("Original String: ", center_string)

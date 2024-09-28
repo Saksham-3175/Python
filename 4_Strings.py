@@ -36,5 +36,5 @@ for character in multi_string:
 str = "Hello Friend"
 print("Sliced(0 to 7):", str[0:7])
 print("Sliced(5 to end): ", str[5:])
-print("The length of the string", str, "is: ", len(str))
+print("The length of the string,", str, "is: ", len(str))
 
