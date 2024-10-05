@@ -27,7 +27,6 @@
 #Default Arguments
 # def add(a = 12, b = 2):
 #     print(f"Sum of {a} and {b} is {a+b}")
-
 # print('Default Arguments')
 # add()
 # add(10)
@@ -42,23 +41,23 @@
 # print('Required Arguments')
 # def add(a, b):
 #     print(a+b)
-
 # add(a=1)
 #error
+#add(3, 6)
+
 
 #Variable Length Arguments
 # average of n numbers
-print('Variable Length Arguments\nType: Tuple')
-def average(*numbers):
-    sum = 0
-    for number in numbers:
-        sum += number
-    print(f"The average of numbers is {sum/len(numbers)}")
-average(1, 2, 3, 4)
+# print('Variable Length Arguments\nType: Tuple')
+# def average(*numbers):
+#     sum = 0
+#     for number in numbers:
+#         sum += number
+#     print(f"The average of numbers is {sum/len(numbers)}")
+# average(1, 2, 3, 4)
 
-print('VLA\nType: Dictionary')
-def name(**name):
-    print("Hello", name["fname"], name["lname"])
-
-name(fname = "Saksham", lname = "Shukla")
+# print('VLA\nType: Dictionary')
+# def name(**name):
+#     print("Hello", name["fname"], name["lname"])
+# name(fname = "Saksham", lname = "Shukla")
 
