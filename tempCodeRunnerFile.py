@@ -1,8 +1,9 @@
+a = input("Enter a number to print it's multiplication table: ")
 
-# while True:
-#     print(num)
-#     num -= 1
-#     if num == 0:
-#         break
-#     else:
-#         c
+# try:
+#     for i in range(1, 11):
+#         print(f"{int(a)} X {i} = {i * int(a)}")
+# except:
+#     print("PLEASE ENTER A NUMBER")
+
+# print("Important lines of code....")
