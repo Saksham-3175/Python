@@ -1,4 +1,5 @@
 #A program to imply set methods with user input.
+#The main aim of this program is to try out writing a program in a professional way.
 
 #Initial sets
 set1 = {1, 2, 3, 4}
