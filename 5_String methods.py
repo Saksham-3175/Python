@@ -1,11 +1,11 @@
-#String Methods
+#String Methods.
 string = "String methods in Python"
 print(string)
 
 #The len() methods returns the length of the string.
 print("The length of the string is: ", len(string))
 
-#The lower() method return the string to lower case.
+#The lower() method returns the string to lower case.
 print("Original String:", string)
 print("The lower case of the string is: ", string.lower())
 
@@ -22,16 +22,15 @@ print("Original String:", string)
 print("The split string is: ", string.split())
 
 #The strip() method removes any whitespace from the beginning or the end.
-string2 = "  Stripped string is here "
-print("Original String:", string2)
-print("The stripped string is: ", string2.strip())
+strip_string = "  Stripped string is here "
+print("Original String:", strip_string)
+print("The stripped string is: ", strip_string.strip())
 
 #The capitalize() method capitalizes the first letter of the string. If the first letter is a number, it will not capitalize it. If the first letter is a special character, it will capitalize the next letter. It will change the rest of the string to lower case.
 
 cap_string = "new strIng"
 print("Original String:", cap_string);
 print("The capitalized string is: ", cap_string.capitalize())
-
 cap_string2 = "_St StRiNg"
 print("Origianl string: ", cap_string2)
 print("The capitalized string is: ", cap_string2.capitalize())
@@ -128,4 +127,5 @@ print("The partitioned string is: ", partition_string.partition("is"))
 rpartition_string = "Python is a programming language"
 print("Original String: ", rpartition_string)
 print("The rpartitioned string is: ", rpartition_string.rpartition("is"))
+
 #End of code ^_^

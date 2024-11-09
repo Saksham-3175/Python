@@ -1,9 +1,6 @@
-a = input("Enter a number to print it's multiplication table: ")
-
-# try:
-#     for i in range(1, 11):
-#         print(f"{int(a)} X {i} = {i * int(a)}")
-# except:
-#     print("PLEASE ENTER A NUMBER")
-
-# print("Important lines of code....")
+center_string = "Centered String"
+print("Original String: ", center_string)
+print("The length of the string is: ", len(center_string))
+print(center_string.center(50))
+print(center_string.center(50, "*"))
+print("The length of string now is: ", len(center_string.center(40)))
