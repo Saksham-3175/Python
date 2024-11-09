@@ -128,13 +128,4 @@ print("The partitioned string is: ", partition_string.partition("is"))
 rpartition_string = "Python is a programming language"
 print("Original String: ", rpartition_string)
 print("The rpartitioned string is: ", rpartition_string.rpartition("is"))
-
-
-
-
-
-
-
-
-
-
+#End of code ^_^
