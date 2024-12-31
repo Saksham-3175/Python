@@ -25,17 +25,17 @@ and I am loving it """
 print(multi_string) 
 
 #String indexing(just like array indexing).
-print("lang[3]: ", lang[3]) 
-print("lang[-2]: ", lang[-2])
+print(f"lang[3]:{lang[3]}") 
+print(f"lang[-2]:{lang[-2]}")
 
 #Using a loop to print slice a multi-line string.
-for character in multi_string:
-	print(character) 
+for character in multi_string.split():
+	print(character, end=" ") 
 
 #String slicing.
 str = "Hello Friend"
-print("Sliced(0 to 7):", str[0:7])
-print("Sliced(5 to end): ", str[5:])
-print("The length of the string,", str, "is: ", len(str))
+print(f"Sliced(0 to 7): {str[0:7]}")
+print(f"Sliced(5 to end): {str[5:]}")
+print(f"The length of the string, \"{str}\" is: {len(str)}")
 
 #End of code ^_^
